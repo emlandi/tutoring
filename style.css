@@ -1,0 +1,14 @@
+
+#body {
+  font: 'News Cycle', sans-serif;
+  font-size: 16px;
+  color: 7B7E8C;
+  background-color: BFB3A4;
+}
+#nav {
+  font-size: 10px;
+  color: BBD3F2;
+  background-color: 735D43;
+  display: inline-block;
+}
+
