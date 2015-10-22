@@ -1,19 +1,19 @@
 * {
   font: 'News Cycle', sans-serif;
-  color: #005B9A;
-  background-color: #99CCCC;
+  color: white;
+  background-color: gray;
 }
 #nav {
   position: fixed;
   width: 100%;
   top: 0px;
   left: 0px;
-  padding: 10px;
+  height: 100px;
   background-color: #FFC04C;
   text-align: right;
 }
 #nav-item {
-  font-size: 16px;
+  font-size: 22px;
   background-color: #FFC04C;
   color: #FFFFFF;
   display: inline-block;
@@ -22,7 +22,13 @@
   margin-right: 10px;
 }
 #main {
-  margin-top: 75px;
+  margin-top: 100px;
+  height: 750px;
+}
+#section1, #section2 {
+  float: left;
+  width: 50%;
+  text-align: center;
 }
 h1 {
   text-align: center;
@@ -33,7 +39,7 @@ p {
   margin-right: 5%;
   text-align: justify;
 }
-table {
+#table {
   border: thick solid;
   text-align: center;
 }
@@ -47,6 +53,7 @@ td {
   bottom: 0px;
   padding: 10px;
   border: 8px solid #FFC04C;
+  background-color: lightgray;
   border-radius: 50px;
   text-align: center;
 }
