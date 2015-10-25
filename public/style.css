@@ -11,8 +11,10 @@ p {
   margin-right: 10%;
 }
 #column1 {
-  width: 65%;
+  width: 60%;
+  padding-left: 5%;
   float: left;
+  margin-top: 20px;
 }
 #column2 {
   width: 35%;
@@ -24,18 +26,22 @@ p {
   text-align: center;
 }
 #consult {
-  margin-top: 20px;
   font-size: 30px;
   text-align: center;
   color: yellow;
+  margin-left: 10%;
 }
 #pic2 {
-  text-align: center;
   margin-bottom: 50px;
+  text-align: center;
+  margin-left: 10%;
 }
 #footer {
-  margin-left: 5%;
-  width: 90%;
+  margin-left: 4%;
+  width: 92%;
   border: 8px solid;
   text-align: center;
+}
+#contact {
+  margin-left: 10%;
 }
