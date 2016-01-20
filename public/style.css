@@ -1,47 +1,100 @@
-* {
-  font-family: 'Arial', sans-serif;
-  color: white;
-  background-color: gray;
-}
-h1, h4 {
-  text-align: center;
-}
-p {
+body {
+  font-family: 'Tahoma', sans-serif;
   font-size: 20px;
-  margin-right: 10%;
+  margin: 0;
+  padding: 0;
 }
-#column1 {
-  width: 60%;
-  padding-left: 5%;
-  float: left;
-  margin-top: 20px;
+/*header*/
+header {
+  height: 200px;
+  padding: 10px;
+  background-color: #1C2663;
+  color: #4CD9FF;
+  text-align: center;
 }
-#column2 {
-  width: 35%;
-  float: left;
+header h1 {
+  font-family: 'Lucida Bright', Georgia;
+  font-size: 55px;
 }
+header h3 {
+  font-family: 'Lucida Bright', Georgia;
+  font-size: 22px;
+  color: #D9FAFF;
+}
+/*sections*/
 #hook {
-  font-size: 26px;
-  border: 4px solid;
+  padding: 10px;
+  background-color: #D9FAFF;
+  border: 5px solid white;
+}
+#hook h3 {
+  padding: 0;
+  margin: 0;
+  font-family: 'Lucida Bright', Georgia;
+  font-size: 35px;
+  color: #1C2663;
   text-align: center;
 }
-#consult {
-  font-size: 30px;
-  text-align: center;
-  color: yellow;
-  margin-left: 10%;
+#hook h3 span {
+  color: #EBC321;
+  text-shadow: 2px 2px #4CD9FF;
 }
-#pic2 {
-  margin-bottom: 50px;
-  text-align: center;
-  margin-left: 10%;
+#hook img {
+  height: 350px;
+  width: 350px;
+  float: right;
+  margin: -50px 50px 0 50px;
+  border: 2px solid #1C2663;
 }
-#footer {
-  margin-left: 4%;
-  width: 92%;
-  border: 8px solid;
+#section1 {
+  padding: 10px;
+  background-color: #32B1FC;
+}
+#section1 h3 span {
+ color: #4CD9FF;
+ text-shadow: 2px 2px #1C2663;
+}
+#break {
+  padding: 10px;
+  background-color: #D9FAFF;
+  border: 5px solid white;
+}
+#break h3 {
+  padding: 0;
+  margin: 0;
+  font-family: 'Lucida Bright', Georgia;
+  font-size: 35px;
+  color: #EBC321;
   text-align: center;
 }
-#contact {
-  margin-left: 10%;
+#break h3 img {
+  height: 55px;
+  width: 55px;
+}
+#section2 {
+  padding: 10px;
+  background-color: #4CD9FF;
+}
+/*footer*/
+footer {
+  height: 200px;
+  padding: 10px;
+  border: 5px solid white;
+  background-color: #D9FAFF;
+  color: #1C2663;
+  text-align: center;
+}
+footer ul {
+  list-style-type: none;
+}
+footer ul:nth-child(2) li {
+  display: inline-block;
+  padding: 5px;
+}
+footer ul li a {
+  text-decoration: none;
+}
+footer ul li a img {
+  height: 50px;
+  width: 50px;
 }

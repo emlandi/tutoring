@@ -1,11 +1,11 @@
 $(document).ready(function(){
 
-  var day = new Date("December 21, 2015");
+  var day = new Date("April 2, 2016");
   var now = new Date();
   var timeDiff = day.getTime() - now.getTime();
   if (timeDiff <= 0) {
     clearTimeout(timer);
-    document.write("Enjoy Winter Break!");
+    document.write("Enjoy Spring Break!");
   }
 
   var seconds = Math.floor(timeDiff / 1000);
